@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/lan2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="top_menu">
+    <ul>
+        <li><a href="#" class="wifi_2.4"  >WIFI 2.4G</a></li>
+        <li><a href="#" class="wifi_5"  >WIFI 5G</a></li>
+        <li><a href="#" class="wan"  >WAN</a></li>
+        <li ><a href="#" class="lan" >LAN</a></li>
+        <li><a href="#" class="mac"  >MAC地址过滤</a></li>
+        <li><a href="#" class="zhongduan"  >WIFI终端管理</a></li>
+        <li><a href="#" class="zhongji"  >WIFI中继</a></li>
+    </ul>
+</div>
+<div class="content">
+    <div class="main">
+        <ul>
+            <li>
+                <span>WAN口选择:</span>
+                <select>
+                    <option>DHCP</option>
+                    <option>HDML</option>
+                </select>
+            </li>
+            <li>
+                <span>地址池开始地址:</span>
+                <input type="text" value="100" name="text"/>
+            </li>
+            <li>
+                <span>地址池结束地址:</span>
+                <input type="text" value="250" name="text"/>
+            </li>
+            <li>
+                <span>地址租期:</span>
+                <input type="text" value="750" name="text"/>
+            </li>
+            <li>
+                <span>网关:</span>
+                <input type="text" value="192.168.1.1" name="text"/>
+            </li>
+        </ul>
+        <input type="button" value="保存" name="save" class="button"/>
+    </div>
+</div>
+</body>
+</html>

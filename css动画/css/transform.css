@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+}
+.menu ul li {
+    color:#e8e8e8;
+    float:left;
+    list-style-type:none;
+}
+.menu ul li a{
+    margin-left:5px;
+    border-radius:5px;
+    text-decoration:none;
+    color:#e8e8e8;
+}
+.clearfix{
+    margin:0;
+    padding:0;
+    float:left;
+    text-align:center;
+    line-height:100px;
+}
+.rotate a{
+    background-color: #997171;
+    display:block;
+    width:100px;
+    height:100px;
+}
+.rotate a:hover{
+    transform:rotate(45deg) scale(1.2,1.2) translate(10px,10px);
+    -ms-transform:rotate(45deg) scale(1.2,1.2) translate(10px,10px);
+    -o-transform:rotate(45deg) scale(1.2,1.2) translate(10px,10px);
+    -moz-transform:rotate(45deg) scale(1.2,1.2) translate(10px,10px);
+    -webkit-transform:rotate(45deg) scale(1.2,1.2) translate(10px,10px);
+}
+.scale a{
+    display:block;
+    width:100px;
+    height:100px;
+    background-color: #000000;
+}
+.scale a:hover{
+    transform:scale(0.8,0.8);
+    -ms-transform:scale(0.8,0.8);
+    -o-transform:scale(0.8,0.8);
+    -moz-transform:scale(0.8,0.8);
+    -webkit-transform:scale(0.8,0.8);
+}
+.scale-x a{
+    background-color: #e8e8e8;
+    display:block;
+    width:100px;
+    height:100px;
+}
+.scale-x a:hover{
+    transform:scalex(0.5);
+    -ms-transform:scalex(0.5);
+    -o-transform:scalex(0.5);
+    -moz-transform:scalex(0.5);
+    -webkit-transform:scalex(0.5);
+}
+.scale-y a{
+    background-color: #FC5259;
+    display:block;
+    width:100px;
+    height:100px;
+}
+.scale-y a:hover{
+    transform:scaley(1.2);
+    -ms-transform:scaley(1.2);
+    -o-transform:scaley(1.2);
+    -moz-transform:scaley(1.2);
+    -webkit-transform:scaley(1.2);
+}
+.translate a{
+    background-color: #FF6600;
+    display:block;
+    width:100px;
+    height:100px;
+}
+.translate a:hover{
+    transform:translate(10px,10px);
+    -ms-transform:translate(10px,10px);
+    -o-transform:translate(10px,10px);
+    -moz-transform:translate(10px,10px));
+    -webkit-transform:translate(10px,10px);
+}
+.translate-x a{
+    background-color: #336699;
+    display:block;
+    width:100px;
+    height:100px;
+}
+.translate-x a:hover{
+    transform:translatex(10px);
+    -ms-transform:translatex(10px);
+    -o-transform:translatex(10px);
+    -moz-transform:translatex(10px);
+    -webkit-transform:translatex(10px);
+}
+.translate-y a{
+    background-color: #330066;
+    display:block;
+    width:100px;
+    height:100px;
+}
+.translate-y a:hover{
+    transform:translatey(10px);
+    -ms-transform:translatey(10px);
+    -o-transform:translatey(10px);
+    -moz-transform:translatey(10px);
+    -webkit-transform:translatey(10px);
+}
+.skew a{
+     background-color: #009933;
+    display:block;
+    width:100px;
+    height:100px;
+}
+.skew a:hover{
+    transform:skew(-30deg,-30deg);
+    -moz-transform:skew(-30deg,-30deg);
+    -o-transform:skew(-30deg,-30deg);
+    -webkit-transform:skew(-30deg,-30deg);
+    -ms-transform:skew(-30deg,-30deg);
+}
+.skew-x a{
+    background-color: #003333;
+    display:block;
+    width:100px;
+    height:100px;
+}
+.skew-x a:hover{
+    transform:skew(-30deg,-30deg);
+    -moz-transform:skew(-30deg,-30deg);
+    -o-transform:skew(-30deg,-30deg);
+    -webkit-transform:skew(-30deg,-30deg);
+    -ms-transform:skew(-30deg,-30deg);
+}
+.skew-y a{
+     background-color: #00FF00;
+    display:block;
+    width:100px;
+    height:100px;
+}
+.mutil a{
+    background-color: #3d4444;
+    display:block;
+    width:100px;
+    height:100px;
+}
+.origin a{
+    background-color: #1d7db1;
+    display:block;
+    width:100px;
+    height:100px;
+}
+*/

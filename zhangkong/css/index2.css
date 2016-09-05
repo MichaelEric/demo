@@ -1,0 +1,200 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+html,body{
+    background:url(../images/beijing.png) no-repeat;
+}
+.content_left{
+    width:50%;
+    position:relative;
+    float:left;
+}
+.left_logo{
+    display:block;
+    width:261px;
+    height:63px;
+    top:195px;
+    left:360px;
+    background:url(../images/LOGO.png) no-repeat;
+    position:absolute;
+}
+.content_left h1{
+    font-family:"microsoft yahei";
+    font-size:34px;
+    letter-spacing: 6px;
+    display:block;
+    font-weight:normal;
+    width:360px;
+    top:300px;
+    left:310px;
+    position:absolute;
+}
+.left_earthlogo {
+    top: 280px;
+    left: 80px;
+    display: block;
+    width: 794px;
+    height: 650px;
+    background: url(../images/tupian.png) no-repeat;
+    position: absolute;
+}
+.content_right{
+    width:50%;
+    float:right;
+}
+.right_nav{
+    position:absolute;
+    width:649px;
+    margin-top:120px;
+    margin-left:5px;
+}
+.right_nav h1{
+    display:block;
+    font-family:"microsoft yahei";
+    font-size:26px;
+    font-weight:normal;
+    width:120px;
+    letter-spacing: 2px;
+    margin-right:10px;
+    float:left;
+}
+.block{
+    width:100px;
+    float:left;
+
+}
+.block img{
+    display:block;
+    width:16px;
+    height:16px;
+    margin-top: 9px;
+    margin-right:8px;
+    float:left;
+}
+.right_background{
+    width:842px;
+    height:761px;
+    margin-top:180px;
+    background:url(../images1/kuang.png) no-repeat;
+    position:relative;
+}
+.right_background .right_text{
+    position:absolute;
+    top:75px;
+    left:80px;
+}
+.right_background .text_title .wifi_top{
+    position:absolute;
+    font-family:"microsoft yahei";
+    font-size:26px;
+    font-weight:normal;
+    letter-spacing:3px;
+    top:50px;
+    left:70px;
+}
+.right_background .text_title .navimg_top{
+    width:9px;
+    height:18px;
+    position:absolute;
+    top:58px;
+    left:50px;
+    background:url(../images2/jiantou.png) no-repeat;
+}
+.right_background .text_title .wifi_top span{
+    margin-left:10px;
+}
+.right_background .right_text_top{
+    position:absolute;
+    top:120px;
+    left:80px;
+}
+.right_background .right_text_top .text_content{
+    margin-bottom:30px;
+}
+.right_background .text_content span{
+    display:block;
+    font-family:"microsoft yahei";
+    font-size:20px;
+    text-align: right;
+    margin-top:8px;
+    width:135px;
+    float:left;
+}
+.right_background .text_content select{
+    border:1px solid #cecece;
+    font-family:"microsoft yahei";
+    font-size:20px;
+    margin-left:30px;
+    text-indent: 2rem;
+    width:500px;
+    height:41px;
+    background:url(../images1/textbeijing.jpg) repeat-x;
+}
+.right_background .text_content input{
+    border:1px solid #cecece;
+    font-size:20px;
+    margin-left:30px;
+    text-indent:2rem;
+    width:500px;
+    height:41px;
+    background:url(../images1/textbeijing.jpg) repeat-x;
+}
+.right_background .text_content h3{
+    font-family:"microsoft yahei";
+    font-weight:normal;
+    font-size:18px;
+    letter-spacing:2px;
+    color:#898989;
+    margin-left:200px;
+    line-height:40px;
+}
+.right_background .right_text_bottom h1{
+    position:absolute;
+    top:100px;
+}
+.right_background .text_title .wifi_bottom{
+    font-family:"microsoft yahei";
+    font-weight:normal;
+    font-size:26px;
+    letter-spacing:3px;
+    position:absolute;
+    display:block;
+    top:355px;
+    left:70px;
+}
+.right_background .text_title .navimg_bottom{
+    width:9px;
+    height:18px;
+    position:absolute;
+    top:364px;
+    left:50px;
+    background:url(../images2/jiantou.png) no-repeat;
+}
+.right_background .text_title .wifi_bottom span{
+    margin-left:10px;
+}
+.right_background .right_text_bottom{
+    top:420px;
+    left:80px;
+    position:absolute;
+}
+
+.right_background .right_text_bottom .text_content{
+    margin-bottom:30px;
+}
+
+.right_background .right_text_bottom .text_content_button{
+    width:500px;
+    height:41px;
+    margin-left:156px;
+}
+.right_background .right_text_bottom .text_content_button a{
+    display:block;
+    width:169px;
+    height:43px;
+    float:left;
+}
+.right_background .right_text_bottom .text_content_button .button{
+    margin-right:160px;
+}

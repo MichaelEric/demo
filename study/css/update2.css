@@ -1,0 +1,10 @@
+html body{
+    background:#1d7db1;
+}
+input{
+    width:200px;
+    height:100px;
+    background:#FF6600;
+    font-size:30px;
+    border-radius:10px;
+}

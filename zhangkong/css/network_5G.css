@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#F1F1F2;
+}
+#main{
+
+}
+.top_menu{
+    height:55px;
+    width:100%;
+    border-bottom: 1px solid #D7D7D7;
+}
+.top_menu ul{
+    font-family: "Microsoft YaHei";
+    font-size:18px;
+    height:55px;
+    width:1085px;
+    list-style-type: none;
+
+    margin:auto;
+}
+.top_menu ul li a{
+    border-radius:5px;
+    height:40px;
+    width:153px;
+    color:#2f3238;
+    line-height:40px;
+    text-align:center;
+    text-decoration:none;
+    float:left;
+    margin-top:10px;
+}
+.top_menu ul .wifi_5{
+    background-color: #FD5F56;
+    color:white;
+}
+.content{
+    width:860px;
+    height:500px;
+    margin:auto;
+}
+.content{
+    margin-top:40px;
+}
+.content .main{
+    width:860px;
+    height:500px;
+    margin:auto;
+}
+.content .left_main{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width:380px;
+    height:440px;
+    background-color:#ffffff;
+    box-shadow:3px 3px 3px #E5E5E6;
+    float:left;
+}
+.content .top_main{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width:380px;
+    height:120px;
+    background-color:#9D9D9D;
+    margin-bottom:50px;
+}
+.content h1{
+    border-bottom:2px solid #ffffff;
+    font-family:"microsoft yahei";
+    font-weight:normal;
+    font-size:28px;
+    width:200px;
+    height:50px;
+    color:#ffffff;
+    text-align:center;
+    line-height:50px;
+    letter-spacing:2px;
+    margin:0 auto;
+    padding-top:25px;
+}
+.content i{
+    display:block;
+    border-radius:5px;
+    width:50px;
+    height:50px;
+    transform:rotate(45deg);
+    background-color:#ffffff;
+    position:absolute;
+    margin-top:20px;
+    margin-left:165px;
+}
+.content ul{
+    width:380px;
+    height:200px;
+    font-family: "Microsoft YaHei";
+    font-size:18px;
+    list-style-type: none;
+    margin:auto;
+}
+.content ul li{
+    display:block;
+    width:380px;
+    height:30px;
+    font-family:"Microsoft YaHei";
+    line-height:30px;
+    color:#424146;
+    text-align:center;
+    letter-spacing:2px;
+    padding:15px 0 15px;
+}
+.content ul li select{
+    border:1px solid #C9C9C9;
+    display:block;
+    width:200px;
+    height:35px;
+    font-family:"Microsoft YaHei";
+    font-size:16px;
+    color:#424146;
+    text-indent:27px;
+    background-color:#F4F4F4;
+}
+.content ul li span{
+    display:block;
+    width:110px;
+    height:30px;
+    font-family:"Microsoft YaHei";
+    font-size:16px;
+    color:#424146;
+    text-align:right;
+    letter-spacing:2px;
+    float:left;
+    margin-right:30px;
+}
+.content li input{
+    border:1px solid #C9C9C9;
+    display:block;
+    width:200px;
+    height:30px;
+    font-family:"Microsoft YaHei";
+    font-size:16px;
+    color:#424146;
+    text-indent:30px;
+    outline:medium;
+    background-color:#F4F4F4;
+}
+.content .right_main{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width:380px;
+    height:440px;
+    background-color:#ffffff;
+    box-shadow:3px 3px 3px #E5E5E6;
+    float:right;
+}
+.content .right_main{
+    margin-bottom: 50px;
+}
+.content .right_main .top_main{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width:380px;
+    height:120px;
+    background-color:#9D9D9D;
+}
+.content .bottom{
+    height:35px;
+    width:100%;
+    clear:both;
+}
+.content .bottom  input{
+    display:block;
+    border:1px solid #FF6600;
+    border:none;
+    width:220px;
+    height:35px;
+    font-family:"Microsoft YaHei";
+    font-size:18px;
+    color:#ffffff;
+    text-align:center;
+    outline:medium;
+    cursor:pointer;
+    background-color:#FD5F56;
+    margin:auto;
+}

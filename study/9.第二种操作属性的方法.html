@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第二种操作属性的方法</title>
+    <script>
+        function setText(name,value)
+        {
+            var oTxt=document.getElementById('txt1');
+            //第一种操作属性的方法
+            oTxt.value='2222222222';
+
+            //第二种操作属性的方法
+            oTxt[name]=value;
+        }
+    </script>
+</head>
+<body>
+<input id="txt1" type="text" />
+<input type="button" value="改变文字" onclick="setText('width')"/>
+</body>
+</html>

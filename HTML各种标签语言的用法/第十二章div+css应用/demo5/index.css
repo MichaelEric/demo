@@ -1,0 +1,20 @@
+/* CSS Document */
+
+#dv1{
+   border:1px solid #FF0000;
+   height:500px;
+   width:500px;
+   float:left;
+   /*background-color:#FF0000;*/
+   background-image:url(../../图片库/6723.jpg);/*背景图的路径是从样式文件算起的*/
+   background-repeat:no-repeat;
+   background-position:-110px 100px;
+}
+#dv2{
+   border:1px solid #00FF00;
+   height:500px;
+   width:500px;
+   background-image:url(../../图片库/8.jpg);
+   /*backoground:#ff0000 url(../../图片库/8.jpg) 100px 100px;*/
+
+}

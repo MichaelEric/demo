@@ -1,0 +1,108 @@
+*{
+  margin:0;
+  padding:0;
+}
+html,body{
+    background:url(../images/beijing.png) no-repeat;
+}
+.content_left{
+    width:50%;
+    position:relative;
+    float:left;
+}
+.left_logo{
+    display:block;
+    width:261px;
+    height:63px;
+    top:195px;
+    left:360px;
+    background:url(../images/LOGO.png) no-repeat;
+    position:absolute;
+}
+.content_left h1{
+    font-family:"microsoft yahei";
+    font-size:34px;
+    letter-spacing: 6px;
+    display:block;
+    font-weight:normal;
+    width:360px;
+    top:300px;
+    left:310px;
+    position:absolute;
+}
+.left_earthlogo{
+    top:280px;
+    left:80px;
+    display:block;
+    width:794px;
+    height:650px;
+    background:url(../images/tupian.png) no-repeat;
+    position:absolute;
+}
+.content_right{
+    width:50%;
+    float:right;
+}
+.right_nav{
+    position:absolute;
+    width:649px;
+    margin-top:300px;
+    margin-left:5px;
+}
+.right_nav h1{
+    display:block;
+    font-family:"microsoft yahei";
+    font-size:26px;
+    font-weight:normal;
+    width:120px;
+    letter-spacing: 2px;
+    margin-right:10px;
+    float:left;
+}
+.block{
+    width:100px;
+    float:left;
+
+}
+.block img{
+    display:block;
+    width:16px;
+    height:16px;
+    margin-top: 9px;
+    margin-right:8px;
+    float:left;
+}
+.right_background{
+    width:649px;
+    height:336px;
+    margin-top:350px;
+    background:url(../images/kuang.png) no-repeat;
+    position:relative;
+}
+.right_background .right_text{
+    position:absolute;
+    top:75px;
+    left:100px;
+}
+.right_background .right_text .text_content{
+    margin-bottom:40px;
+}
+.right_background .text_content span{
+    display:block;
+    font-family:"microsoft yahei";
+    font-size:20px;
+    margin-top:8px;
+    width:100px;
+    float:left;
+}
+.right_background .text_content input{
+    border:0;
+    font-size:20px;
+    margin-left:20px;
+    width:311px;
+    height:41px;
+    background:url(../images/shurukuang.png) no-repeat;
+}
+.right_background .right_text .right_button{
+    margin-left:120px;
+}

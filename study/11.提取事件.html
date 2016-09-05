@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>提取事件</title>
+</head>
+<body>
+<input  id="btn1"  type="button" value="按钮"  />
+<script>
+    var oBtn=document.getElementById('btn1');
+    /*function abc()//如果没有名字js就称之为“匿名函数”
+    {
+        oBtn.value='abc';
+        alert('a');
+    }
+    oBtn.onclick=abc;//必须要写个函数*/
+
+
+    /*--------------------匿名函数的写法-----------------------*/
+    oBtn.onclick=function abc()
+    {
+        oBtn.value='abc';
+        alert('a');
+    };
+</script>
+</body>
+</html>

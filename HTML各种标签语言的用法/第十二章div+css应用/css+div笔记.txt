@@ -1,0 +1,241 @@
+
+/*全局适用样式*/
+* {
+    margin: 0;
+    padding: 0;
+    /*使 padding border 都计算到width 内*/
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /* Safari */
+}
+
+body {
+    /*在iOS上，当你触摸并按住触摸的目标，比如一个链接，Safari浏览器将显示链接有关的系统默认菜单。这个属性可以让你禁用系统默认菜单。*/
+    -webkit-touch-callout: none;
+    /*使页面上的字体抗锯齿,使用后字体看起来会更清晰舒服。加上之后就顿时感觉页面小清晰了。*/
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    /* 禁用浏览器的文字大小调整功能。*/
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    text-size-adjust: none;
+    /*当用户点击iOS的Safari浏览器中的链接或JavaScript的可点击的元素时，覆盖显示的高亮颜色。*/
+    /*该属性可以只设置透明度。如果未设置透明度，iOS Safari使用默认的透明度。当透明度设为0，则会禁用此属性；当透明度设为1，元素在点击时不可见。*/
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+
+    font-family: "Helvetica Neue", Roboto, sans-serif;
+    /*优化文本速度、可读性、精度*/
+    text-rendering: optimizeLegibility;
+    /*在旋转元素不希望看到其背面时*/
+    -webkit-backface-visibility: hidden;
+    /*在webkit内核的浏览器上，只要输入框周围有图片，只要稍微一拖，进入输入框，就会把图片地址，或链接放入输入框*/
+    -webkit-user-drag: none;
+}
+
+
+知识点：
+      一  div span ul ol li标记
+      二  css 概述
+      三  css调用方式
+      四  css选择器
+      五  css当中具体的样式
+      六  demo 当当网页面
+
+
+一  div span ul ol li标记
+     常用的web2.0思想当中的标记
+
+     1.div(所有的元素都有id)
+       注意：div是独占一行的
+
+     2.span 都在一行上
+
+     3.ul ol li 一组
+        ul无序列表
+        <ul type="square"(方块) circle(空心圆) disc(实心圆)>
+	    <li>你好么</li>
+	    <li>我还行</li>
+	    <li>你呢？</li> 
+        ol有序列表
+        <ol type="1"(数字) a(小写字母) A(大写字母) i(希腊字符)>
+	    <li>你好么</li>
+	    <li>我还行</li>
+	    <li>你呢？</li>
+	</ol>
+
+二  css 概述
+
+    1>什么是css
+        css是层叠样式表，是用来替代属性的，不用写在标记中
+         <font color size="值">(用属性修饰它的样式)
+         专业解释：实现 表现与结构分离  表现(属性) 结构(<font><br/>标记等)
+         作用：1.便于管理 2.使页面的代码整洁
+    2>web2.0
+        早先：用table 架构页面
+        web2.0 div+css 架构页面*******
+        html5 css3是web2.0思想基础上的添加了一些内容
+
+三  css调用方式
+    
+    1>css格式
+     {样式名称(也就是属性名称):样式值;样式名称:样式值;样式名称:样式值;样式名称:样式值;.....}
+
+    2> html页面中如何调用css  表现与结构分离
+      A 标记上直接使用style属性来调用样式(所有元素都有style属性)
+         <标记 style="样式名称:样式值;样式名称:样式值;样式名称:样式值;......">
+     
+      B html页面中内嵌样式
+         </head>
+         <style type="text/css">
+            样式列表
+         </style>
+         <body>
+      C 外部调用css ******(推荐使用)
+         index.html--->index.css样式文件
+         <title>外部调用</title>
+         <link href="index.css"(文件位置) rel="stylesheet"(样式规则) type="text/css"(样式文件的编写类型)/>
+         写在</head>之前
+
+四  css选择器(在页面中找到元素的)
+
+    1>使用选择器的格式
+         选择器{样式名称:样式值;样式名称:样式值;样式名称:样式值;样式名称:样式值;......}
+   
+    2>css中的6中选择器
+       A.通配选择器(选择页面上的所有元素)
+         在index.css中编写方式
+            *{样式名称:样式值;样式名称:样式值;样式名称:样式值;样式名称:样式值;.....}
+
+       B.标记选择器
+            标记名称{样式名称:样式值;样式名称:样式值;样式名称:样式值;样式名称:样式值;.....}
+
+       C.class选择器(选中具有相同class属性的元素，所有元素都有class属性)
+            .className{样式名称:样式值;样式名称:样式值;.....}
+
+       D.id选择器
+            #id{样式名称:样式值;样式名称:样式值;.....}
+      
+       E.群组选择器
+           #id,className,标记名称,...{ 样式名称:样式值;样式名称:样式值;.....}
+ 
+       F.派生选择器
+           父选择器  子选择器
+         	
+
+五  css当中具体的样式
+
+       1> border width height
+           border:粗细 solid(实线) 颜色。制作元素边框的
+           width:像素值
+           height:像素值
+
+       2> 布局属性
+           padding:内边距：上(padding-top) 
+                           右(padding-right) 
+                           下(padding-bottom) 
+                           左(padding-left)
+            注意：padding会改变元素的宽度和高度；
+                  padding:值，上 右 下 左就都是这一个值；是以上和左为主的。
+
+           margin: 外边距：上margin-top) 
+                           右(margin-right) 
+                           下margin-bottom) 
+                           左(margin-left)
+                  margin:auto水平居中。
+            注意：margin不会改变元素的宽度和高度；
+                  margin:值，上 右 下 左就都是这一个值；是以上和左为主的。
+
+           float:浮动元素。独占一行的特性消除掉。
+                有两个值：left right
+
+
+           clear：消除前后元素浮动所带来的影响的。
+                有一个值：both
+
+           display：none/block;用来控制显示和隐藏元素的。
+
+       3> 背景属性
+
+           background-color:背景色
+      
+           background-image:背景图
+                注意：背景图的路径是从样式文件算起的；
+                      背景图的宽高小于元素的宽高，背景图宽和高平铺
+                例子：background-image:url(../../图片库/6723.jpg)
+
+           background-repeat:no-repeat(不平铺) 
+                             repeat-x(横向平铺) 
+                             repeat-y(纵向平铺)
+
+           background-position:调整背景图的位置
+                有两个值：x(值):负数往左正数往右  
+                          y(值):正数往下负数往上
+
+           background:color image repeat 附着方式 position;
+    
+
+
+
+
+---------------------------------------
+七.自己做网页时的知识点：
+
+         1>字体点击时效果属性：
+
+            1.鼠标放到字上，或者变大，或者变颜色，都用hover属性定义
+
+         2>光标属性<cursor>：
+     
+            1.使用光标属性可以设置在对象上移动时鼠标指针采用的光标形状。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

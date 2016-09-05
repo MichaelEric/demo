@@ -1,0 +1,14 @@
+知识点：
+
+      一 框架集 frameset
+               <frameset>
+              </frameset> 写网站后台使用的
+                    rows(高度)="val1,val2,val3....." val有几个值，就有几行，val是数字，例子：rows="150,*"
+                    cols(宽度)="val1,val2,val3....." val有几个值，就有几列，val是数字，例子：rows="150,*"
+                          *表示这里剩下的全部
+
+                  <frame src="链接页面的路径">
+                  frameborder="0"框架边框属性，所有带frame的如果不想要边框，都需要加frameborder属性
+                  scrolling="no" 不允许边框拖动，所有带frame的如果不想要拖动，都需要加scrolling属性
+                  noresize="noresize"禁止重新设置大小，不能重新改变框架集的尺寸
+                  target="rightftame" 页面打开的地方，目标和框架集的属性必须一致，否则指定不到

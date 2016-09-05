@@ -1,0 +1,86 @@
+/* CSS Document */
+.a{
+   border:1px solid #ff0000;
+   border-right:1px solid #000;
+   padding:0 0 1em 0;
+   margin-bottom:1em;
+   font-family:"΢���ź�";
+   color:#000000;
+   width:500px;
+   height:100px;
+   margin:auto;
+
+}
+.a ul{
+   border:none;
+   list-style:none;
+   margin:0;
+   padding:0;
+   height:30px;
+   list-style-type:none;
+
+}.a ul li{
+   border:0px solid #666666;
+   width:100px;
+   border-bottom-width:1px;
+   boeder-bottom-style:solid;
+   border-bottom-color:#ffff00;
+   text-align:center;
+   text-decoration:none;
+  
+
+   
+}
+.a ul li a{  
+   display:block;
+   text-decoration:none;
+   padding:5px 0.5em;
+   font-family:"microsoft yahei";
+   color:#FF0000;
+      background-color:#999999;
+	  width:100%;
+	  border-right-width:10px;
+	  border-left-width:10px;
+	  border-right-style:solid;
+	  border-left-style:solid;
+	  border-right-color:#ffcc00;
+	  border-left-color:#ffcc00;
+	  position:relative;
+}
+.a ul li a:hover{  
+
+      background-color:#ffcc00;
+	  color:#000;
+	  border-right-width:10px;
+	  border-left-width:10px;
+	  border-right-style:solid;
+	  border-left-style:solid;
+	  border-right-color:#FF0000;
+	  border-left-color:#FF0000;
+}
+.a ul li a:active{  
+	  color:#00FF00;
+}
+span{
+  background-color:#666666;
+  color:#FFFFFF;
+  height:150px;
+}
+.a ul li a:link{  
+	  color:#003333;}
+.a ul li a * {
+    position:absolute;
+    word-break:break-all; /*֧��IE��chrome��FF��֧��*/
+����word-wrap:break-word;/*֧��IE��chrome��FF*/ 
+    display:none;
+	top:0;
+	left:100%;
+	width:200px;
+}
+.a ul li a:hover * { 
+    display:block;
+}
+
+.2{
+
+}

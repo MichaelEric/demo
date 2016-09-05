@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:url(../img_gateway/dabeijing.png) no-repeat;
+}
+
+.top_menu{
+    height:55px;
+    width:100%;
+    border-bottom: 1px solid #D7D7D7;
+}
+.top_menu ul{
+    font-family: "Microsoft YaHei";
+    font-size:18px;
+    height:55px;
+    width:930px;
+    list-style-type: none;
+
+    margin:auto;
+}
+.top_menu ul li a{
+    border-radius:5px;
+    height:40px;
+    width:153px;
+    color:#2f3238;
+    line-height:40px;
+    text-align:center;
+    text-decoration:none;
+    float:left;
+    margin-top:10px;
+}
+.top_menu ul .upgrade{
+    background-color: #FD5F56;
+    color:white;
+}
+
+.content{
+    width:880px;
+    height:320px;
+    background-color:#ffffff;
+    box-shadow:3px 3px 3px #E3E3E4;
+    margin:auto;
+}
+.content{
+    margin-top:40px;
+}
+.content .main{
+    width:692px;
+    height:250px;
+    margin:auto;
+    padding-top:30px;
+}
+.main ul{
+    width:692px;
+    height:200px;
+}
+ .main ul li{
+    display:block;
+    width:692px;
+    height:30px;
+    font-family:"Microsoft YaHei";
+    line-height:30px;
+    color:#424146;
+    text-align:center;
+    letter-spacing:2px;
+    padding:5px 0 5px;
+}
+.main ul .top_text {
+    margin-bottom:30px;
+}
+.main ul .top_text h1{
+    border-bottom:2px solid #DBDBDB;
+    height:40px;
+    font-size:20px;
+}
+
+.main ul li span{
+    display:block;
+    width:100%;
+    height:30px;
+    font-family:"Microsoft YaHei";
+    font-size:16px;
+    color:#424146;
+    letter-spacing:2px;
+
+}
+.main ul li span p{
+    display:inline-block;
+    width:150px;
+    height:30px;
+    font-family:"Microsoft YaHei";
+    font-size:16px;
+    color:#424146;
+    letter-spacing:2px;
+
+}
+.main ul .button_update{
+    margin-top:20px;
+}
+.main ul .button_update input{
+    border:none;
+    width:120px;
+    height:30px;
+    font-family:"Microsoft YaHei";
+    font-size:16px;
+    color:#ffffff;
+    outline:medium;
+    cursor:pointer;
+    background-color:#FD5F56;
+}
+.main ul .dif_text {
+    margin-top:10px;
+}
+.main ul .dif_text p{
+    color:#9B9B9B;
+}
+.main ul  .save_btn {
+    margin-top:60px;
+}
+ .main ul  .save_btn input{
+    border:none;
+    width:120px;
+    height:30px;
+    font-family:"Microsoft YaHei";
+    font-size:16px;
+    color:#ffffff;
+    outline:medium;
+    cursor:pointer;
+    background-color:#FD5F56;
+}
+
+.main ul .save_btn input:first-child{
+    margin-right:20px;
+}
+.container{
+    width:880px;
+    height:320px;
+    background-color:#ffffff;
+    box-shadow:3px 3px 3px #E3E3E4;
+    margin:auto;
+}
+.container{
+    margin-top:20px;
+}
+.container .main{
+    width:692px;
+    height:250px;
+    margin:auto;
+    padding-top:30px;
+}
+.main ul .bottom_text{
+    margin-top:40px;
+}

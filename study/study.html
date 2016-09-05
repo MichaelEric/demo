@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //定时器setInterval//
+/*        var count=10;
+        function update()
+        {
+            if(count>=0)
+            {
+                status = count--;
+            }
+        }
+        function guanbi()
+        {
+            w.close();
+        }*/
+/*
+        var count=10;
+        function update()
+        {
+            if(count>=0)
+            {
+                status =count--;
+            }
+        }
+*/
+/*
+        function jump()
+        {
+            location="http://203.100.95.115";
+        }
+*/
+
+
+
+
+    </script>
+</head>
+<body onload="setInterval('jump()',2000);"><!--2秒之后关闭w所在的窗口-->
+<script>
+    //window控制方法//
+
+//    var w = open("small.html","small1","width=300,height=300");//打开新的窗口
+//    w.moveTo(600,300);//窗口移动
+
+
+    //状态栏//
+    在study_two里演示;
+
+
+
+/*
+    //简单对话框//
+    if (confirm("你还要继续么？"))
+    {
+        alert("好的，没问题");
+    }else{
+        alert("好的，再见");
+    }
+    var name=prompt("你的名字是：");
+    alert(name);
+*/
+
+
+
+/*
+    //事件处理器//
+      在study_two里演示;
+*/
+
+
+
+
+/*
+    for ( x in document)
+    {
+        document.write(x+"<br/>");
+    }
+
+
+
+
+    //全局对象//
+    var value=22;
+    alert(window.value);
+*/
+
+
+
+
+/*
+
+    //组合原型和构造方法//
+    function Person(name,age,job){
+        this.name=name;
+        this.age=age;
+        this.job=job;
+        this.friends=["make","jay"];
+    }
+    Person.prototype={
+        constructor:Person,
+        sayname:function(){
+            alert(this.name);
+        }
+    };
+    var person1=new Person("make",24,"doctor");
+    var person2=new Person("jay",24,"teacher");
+    person1.friends.push("van");
+    alert(person1.friends);
+    alert(person2.friends);
+    alert(person1.friends == person2.friends);
+    alert(person1.age == person2.age);
+*/
+
+
+
+
+
+/*
+
+    //原型的问题//
+    function Person(){}
+    Person.prototype = {
+        constructor:Person,
+        name :"jackson",
+        age:24,
+        job:"null",
+        friends :["make","john"],
+        sayname :function(){
+            alert(this.name);
+        }
+    };
+    var person1 = new Person();
+    var person2 = new Person();
+    person1.friends.push("van");
+    person1.friends[2] = "hello";
+    alert(person1.friends);
+    alert(person2.friends);
+
+*/
+
+
+
+
+
+
+
+
+/*
+    //原型对象|自己扩展版2|//
+    function Person (){}
+    Person.prototype.name = "machiel jackson";
+    Person.prototype.age = 24;
+    Person.prototype.job = "king of pop";
+    Person.prototype.say = function(){
+        alert(this.name);
+        alert(this.age);
+        alert(this.job);
+    };
+    var person1 = new Person();
+    person1.say();
+    var person2 = new Person();
+    person2.name = "gray";
+    person2.say();
+
+
+
+
+    //原型对象|自己扩展版1|//
+    function Person (){}
+    Person.prototype.name = "machiel jackson";
+    Person.prototype.age = 24;
+    Person.prototype.job = "king of pop";
+    Person.prototype.say = function(){
+        alert(this.name);
+        alert(this.age);
+        alert(this.job);
+    };
+    var person1 = new Person();
+    person1.say();
+
+
+
+
+
+    //原型对象|自己扩展版|//
+    function Person (){}
+    Person.prototype.name = "machiel jackson";
+    Person.prototype.age = 24;
+    Person.prototype.job = "king of pop";
+    Person.prototype.sayname = function(){
+        Person.prototype.sayage = function(){
+            alert(Person.prototype.age);
+        };
+        alert(this.name);
+    };
+    var person1 = new Person();
+    person1.sayname();
+    var person2 = new Person();
+    person2.sayname();
+    alert(person1.sayname == person2.sayname);
+    var person3 = new Person();
+    person3.sayage();
+
+
+
+//////////////////////////////////////////////////////////
+
+
+    //原型对象|原版|//
+    function Person (){}
+    Person.prototype.name = "machiel jackson";
+    Person.prototype.age = 24;
+    Person.prototype.job = "king of pop";
+    Person.prototype.sayname = function(){
+        alert(this.name);
+    };
+    Person.prototype.sayage = function(){
+        alert(this.age)
+    };
+    var person1 = new Person();
+    person1.sayname();
+    var person2 = new Person();
+    person2.sayname();
+    alert(person1.sayname == person2.sayname);
+    var person3 = new Person();
+    person3.sayage();
+
+
+
+
+
+    //构造方法//
+    function Rect(w,h)
+    {
+        this.width = w;
+        this.height = h;
+        this.area=function(){
+            return this.width*this.height;
+        }
+    }
+    var r = new Rect(5,10);
+    alert(r.area());
+    r.width = 10;
+    alert(r.area());
+
+
+
+    //创建对象，遍历所有属性//
+    var o = new Object();
+    o.name = "john Make";
+    o.age = 30;
+    o.salary = 300;
+    for (var x in o)
+    {
+        alert(x+"="+o[x]);
+    }
+
+
+
+
+
+
+    //创建对象//
+
+    var o = new Object();
+    var ciclr = {x:0,y:0,radius:2};
+
+
+
+
+
+
+
+
+
+
+
+    //数组操作|连接|//
+    colors2 = colors.concat("yellow",["blue","red"]);
+
+    //数组操作|截取|//
+    colors3 = colors.slice(1,4);
+
+
+
+    //队列操作//
+    var colors = new Array();
+    var count =  colors.push("red","blue");
+    alert(count);
+    count = colors.push("black");
+    alert(count);
+    var item = colors.shift();
+    alert(item);
+    alert(colors.length);
+
+
+
+    //堆栈操作//
+    var colors = new Array();
+    var count =  colors.push("red","blue");
+    alert(count);
+    count = colors.push("black");
+    alert(count);
+    var item = colors.pop();
+    alert(item);
+    alert(colors.length);
+*/
+
+
+
+
+
+    //数组转换成字符串//
+//    var colors=["red","blue","green"];
+//    alert(colors)
+//    alert(colors.join("||"));
+
+
+
+
+
+
+    //.length可写,可扩展性代码//
+//    var colors=["red","blue","green"];
+//    colors.length = 4;
+//    alert(colors[3]);
+//    colors[colors.length] = "black";
+//    colors[colors.length] = "cyan";
+//    alert(colors[3]);
+
+
+
+
+
+    //a.length给出数组a的长度，是其中最大的下标+1//
+//    var colors=["red","blue","green"];
+//    var names=[];
+//    alert("colors.length="+colors.length);
+//    alert("names.length="+names.length);
+//    colors[4]="cyan";
+//    alert("colors.length="+colors.length);
+
+
+
+    //数组//
+//    var colors=["red","blue","green"];
+//alert(colors[0]);
+//alert(colors[2]);
+//alert(colors[3]);
+//    colors[2]="black";
+//    colors[3]="yellow";
+//    colors[100]="cyan";
+//alert(colors[0]);
+//alert(colors[2]);
+//alert(colors[3]);
+//alert(colors[100]);
+//alert(colors[99]);
+
+
+
+
+/*
+
+    //函数变量 var f = new Function("x","y","return x*y"); 等价于 function f(x,y){ return x*y;}
+    var a=10;
+    var b=20;
+    var d=30;
+    var c=a+b+d;
+    var e=b+c;
+function add(a,b)
+{
+    return a+b;
+
+}
+function cal(f,a,b)
+{
+    return f(a,b);
+}
+println(cal(add,c,e));
+
+
+    //代码换行，不用加<br/>的函数//
+function println(s)
+{
+    print(s+"<br/>");
+}
+
+    //函数：function max(a,b){return a>b?a:b}
+    var u = 42;
+    var v = 24;
+function max(a,b)
+{
+    return a>b?a:b;
+}
+function print(s)
+{
+    document.write(s);
+}
+function gcd(u,v) {
+//    var a = u;
+//    var b = v;
+    var temp = v;
+    while (v != 0) {
+        temp = u % v;
+        u = v;
+        v = temp;
+    }
+    return u;
+}
+println(max(42,24));
+println(u+"和"+v+"最大公约数是" + gcd(u,v));
+*/
+
+
+
+    //函数：function print(msg){document.write(msg);}
+//    var u = 42;
+//    var v = 24;
+//function print(s)
+//{
+//    document.write(s);
+//}
+//function gcd(u,v) {
+//    var a = u;
+//    var b = v;
+//    var temp = v;
+//    while (v != 0) {
+//        temp = u % v;
+//        u = v;
+//        v = temp;
+//    }
+//    print(a+"和"+b+"最大公约数是" + u+"<br/>");
+//}
+//gcd(22,33);
+//gcd(44,22);
+
+
+
+
+
+
+    //函数 function//
+//    var u = 42;
+//    var v = 24;
+//function gcd(u,v) {
+//    var a = u;
+//    var b = v;
+//    var temp = v;
+//    while (v != 0) {
+//        temp = u % v;
+//        u = v;
+//        v = temp;
+//    }
+//    document.write(a+"和"+b+"最大公约数是" + u+"<br/>");
+//    alert(a+"和"+b+"最大公约数是" + u);
+//    }
+//gcd(22,33);
+//gcd(44,22);
+
+
+
+
+
+
+//    var amt = 74;
+//    for( one =0; one <= amt; ++one)
+//       for( five = 0; five <= amt/5; ++five)
+//         for( ten = 0; ten <= amt/10; ++ten)
+//           for( twenty = 0; twenty <=amt/20; ++amt)
+//             if( one+five*5+ten*10+twenty*20 == amt)
+//             document.write(one+"张1元,"+five+"张5元",+ten+"张10元,"+twenty+"张20元->"+amt);
+
+
+
+
+
+    //常用 for( init ; condition; step){}
+
+//   for(i=0;i<5;i=i+1)
+//   {
+//       alert(i);
+//   }
+
+
+
+
+
+    //reverse number(有问题的)//
+//    var number = 23871;
+//    var reverse = 0;
+//    do
+//    {
+//        var LastDigit =number % 10;
+//        reverse = (reverse * 10 ) + LastDigit;
+//       number = number / 10;
+//    }
+//    while( number > 0);
+//    alert("that number reversed is"+ reverse);
+
+    //reverse number(能正确显示的)//
+//    var a = 23871;
+//    var reverse = 0;
+//    do
+//    {
+//    var temp = parseInt(a % 10);
+//    reverse = (reverse * 10) + temp; a=a / 10;
+//     }
+//    while(a > 1);
+//    {
+//    alert(reverse);
+//    }
+
+    //无限循环//
+//    var count =1;
+//    while(count != 50)
+//    {
+//        count += 2;
+//    }
+
+
+
+
+    //有限循环//
+//    var u = 42;
+//    var v = 24;
+//    var temp =v;
+//    while(v != 0)
+//    {
+//        temp =u%v;
+//        u =v;
+//        v =temp;
+//    }
+//    alert(u+ "和" +v+"的最大公约数是" +u);
+
+
+
+
+//    var count =10;
+//    while(count > 0)
+//    {
+//        alert(count);
+//        count--;
+//    }
+//    alert("发射");
+
+
+
+
+    //这里的逻辑有些不明白//
+//    var num = 10;
+//    var count = 0;
+//    while( num > 1)
+//    {
+//        num = num/2;
+//        count++;
+//    }
+//    alert(count);
+
+
+    //除法循环//
+//    var total = 2;
+//    var max = 10;
+//    while(total < max)
+//    {
+//        max = max / 2;
+//        alert("恭喜你被除净了" + max);
+//    }
+
+
+    //循环//
+//    var count = 1;
+//    var limit = 5;
+//    while (count <= limit)
+//    {
+//        alert(count);
+//        count = count +1;
+//    }
+
+
+
+    //成绩合格与不合格//
+//     var pass=60;
+//     var score=59;
+//     document.write("你的成绩是" + score);
+//     if(score > pass)
+//     {
+//        alert("恭喜你，成绩合格，请进入下一阶段");
+//     }
+//     else
+//     {
+//         alert("对不起，此次成绩不合格");
+//         alert("请重新补考");
+//     }
+
+
+
+    //工作时间是否算加班//
+//    var rate=8.25;
+//    var standard= 40;
+//   var pay=0.0;
+//    var hours = 52;
+//    if(hours > standard )
+//    {
+//        pay = standard * rate + (hours - standard) * (rate * 1.5);
+//    }
+//    else
+//    {
+//        pay = hours * rate;
+//        alert("快洗洗睡吧")；
+//    }
+
+
+    //是否成年//
+//    var age=15;
+//    document.write("你的年龄是"+age);
+//  if(age >= 18)
+//    {
+//        alert("你已经成年了");
+//    }
+//    else
+//    {
+//        alert("还小呢，多玩会吧")
+//    }
+//    alert("自由多情空余恨，此恨绵绵无绝期");
+
+
+
+
+    //初步介绍//
+//    var hello="hello";
+//    hello="hello";
+//    hello=hello+" world";
+//    var age1=18;
+//    var age2=20;
+//    document.write(hello == "hello");
+//    document.write(age1 != age2);
+//    *document.write(age1 == age2);
+//    var age=3+16*2/4;
+//    age=-age;
+//    var result=10%2;
+//    result++;/!*(加1)*/
+//    ++result;
+//    result--;
+//    var ot=true;
+//    document.write(result);
+//    document.write(hello+age);
+//    document.write("<h1>hello word!</h1>");
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>提取事件2</title>
+    <script>
+        /*----------不要加行间样式，不要加行间事件--------*/
+        /*-------------当页面加载完成之后执行-------------*/
+        window.onload=function()
+        {
+            var oBtn = document.getElementById('btn1');
+
+            function abc() {
+                alert('a');
+            }
+
+            oBtn.onclick = abc;
+        }
+    </script>
+</head>
+<body>
+<input id="btn1" type="button" value="按钮"/>
+</body>
+</html>

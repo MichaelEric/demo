@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>form表单元素</title>
+</head>
+             <!--<br/>--------------------image元素------------------<br/>-->
+
+            <!--<input type="元素名称">
+			                  button: 普通按钮 value="按钮的文字" 作用:与js/jquery代码做一些效果使用,
+			                  checkbox 复选框  value="隐藏起来的"值是在处理传递时候用， checked="checked"默认选中的,
+			                  file 上传控件,
+			                  hidden 隐藏域, value="值"用来和PHP交互的，
+			                  image 图片提交按钮 src="图片路径",
+							  <form action="处理页面">需要在form里加一个action,意思是将image提交到目标页面里去,同时要加 method="post(       
+							  数据传递多并且快)/get(数据传递少并且慢)"，一般将数据传到动态PHP页面里。>
+							  submit 图片提交按钮,与image相同,区别在于image是通过图片提交,submit是以按钮形式提交
+			                  password 密码框,
+			                  radio 单选框 name="us(相同)"排他效果,
+			                  reset 按钮 value="按钮上的文字" 把所有表单元素还原成默认状态,
+			                  text 文本框,-->
+
+             <!--<br/>--------------------非image元素------------------<br/>-->
+			 <!--<select>下拉框元素
+			 
+			        <option selected="selected"(默认项)>北京</option>   选项
+					<option>上海</option>
+					<option>广州</option>
+					<option>深圳</option>
+			 
+			 </select>-->
+			 
+			 <!--<textarea  cols="列数(一般是文本域的宽,用字符表示)"rows="行数(一般是文本域的高度,用数字表示)" > 文本域,主要用作评论，讨论之类的
+		     </textarea>-->
+
+
+<body>
+     <form align="center" action="b.html">
+	 
+	 <!--image元素-->
+	 
+	    <input type="button" value="点击按钮"/><br/>
+		<input type="checkbox" value="1" checked="checked"/><br/>
+		<input type="file" /><br/>
+		<input type="hidden" value="111111" /><br/>
+		<input type="image" src="1.jpg" /><br/>
+		<input type="submit" value="我同意，提交" /><br/>
+		<input type="password"  /><br/>
+		<input type="radio" name="us"/>男
+        <input type="radio" name="us"/>女<br/>
+		<input type="text"  /><br/>
+		<input type="reset" value="重置"><br/>
+		
+		
+	 <!--非image元素-->		
+	    <select>
+		       <option>北京</option>  
+			   <option>上海</option>
+			   <option selected="selected">广州</option>
+			   <option>深圳</option>
+		</select><br/>
+		
+		
+		<textarea cols="40" rows="8"></textarea>
+		
+		
+<br/>
+
+
+
+
+	 
+	 </form>
+
+</body>
+</html>

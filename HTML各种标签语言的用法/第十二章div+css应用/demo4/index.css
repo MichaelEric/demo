@@ -1,0 +1,22 @@
+/* CSS Document */
+
+#dv1{
+   border:1px solid #FF0000;
+   height:200px;
+   width:200px;
+   float:left;
+   background-color:#FF0000;
+}
+#dv2{
+   border:1px solid #009933;
+   height:200px;
+   width:200px;
+   float:left;
+}
+#dv3{
+   border:1px solid #0000FF;
+   height:200px;
+   width:200px;
+   clear:both;
+   /*display:none;*/
+}

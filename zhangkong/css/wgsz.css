@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:url(../img_gateway/dabeijing.png) no-repeat;
+}
+#main{
+
+}
+#main .line{
+    height:55px;
+    width:100%;
+    border-bottom: 1px solid #D7D7D7;
+}
+.content{
+    margin:auto;
+    padding-top:50px;
+}
+ .difference{
+    background: url(../img_gateway/baisebeijing.png) no-repeat;
+}
+.content  tr{
+    width:1088px;
+    font-family:"microsoft yahei";
+    font-size:18px;
+    color:#5F5F5F;
+    letter-spacing:2px;
+    margin:auto;
+}
+.content tr td{
+    height:62px;
+    width:544px;
+    line-height:52px;
+}
+.text{
+     text-align:right;
+     padding-right:60px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/network_5G.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="main">
+    <div class="top_menu">
+        <ul>
+            <li><a href="network_2.4G.html" class="wifi"  >WIFI 2.4G</a></li>
+            <li><a href="network_5G.html" class="wifi_5"  >WIFI 5G</a></li>
+            <li><a href="wan.html" class="wan"  >WAN</a></li>
+            <li ><a href="lan.html" class="lan" >LAN</a></li>
+            <li><a href="lan1.html" class="mac"  >MAC地址过滤</a></li>
+            <li><a href="network_zhongduan.html" class="zhongduan"  >WIFI终端管理</a></li>
+            <li><a href="network_zhongji.html" class="zhongji"  >WIFI中继</a></li>
+        </ul>
+    </div>
+</div>
+<div class="content">
+    <div class="main">
+        <div class="left_main">
+            <div class="top_main">
+                <h1>普通设置</h1>
+                <i></i>
+            </div>
+            <ul>
+                <li>
+                    <span>网络设置:</span>
+                    <input type="text" value="md_5G" name="text"/>
+                </li>
+                <li>
+                    <span>加密方式:</span>
+                    <select>
+                        <option>无加密</option>
+                        <option>软加密</option>
+                    </select>
+                </li>
+                <li>
+                    <span>WIFI密码:</span>
+                    <input type="password" value="自动" name="password"/>
+                </li>
+            </ul>
+            <div class="bottom_main"></div>
+        </div>
+        <div class="right_main">
+            <div class="top_main">
+                <h1>高级设置</h1>
+                <i></i>
+            </div>
+            <ul>
+                <li>
+                    <span>信道:</span>
+                    <input type="text" value="自动" name="text"/>
+                </li>
+                <li>
+                    <span>频段宽带:</span>
+                    <input type="text" value="自动" name="text"/>
+                </li>
+            </ul>
+            <div class="bottom_main"></div>
+        </div>
+        <div class="bottom">
+            <input type="button" value="保存" name="save" class="bottom_button"/>
+        </div>
+    </div>
+</div>
+</body>
+</html>

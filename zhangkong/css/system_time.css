@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:url(../img_gateway/dabeijing.png) no-repeat;
+}
+
+.top_menu{
+    height:55px;
+    width:100%;
+    border-bottom: 1px solid #D7D7D7;
+}
+.top_menu ul{
+    font-family: "Microsoft YaHei";
+    font-size:18px;
+    height:55px;
+    width:930px;
+    list-style-type: none;
+    margin:auto;
+}
+.top_menu ul li a{
+    border-radius:5px;
+    height:40px;
+    width:153px;
+    color:#2f3238;
+    line-height:40px;
+    text-align:center;
+    text-decoration:none;
+    float:left;
+    margin-top:10px;
+}
+.top_menu ul .time{
+    background-color: #FD5F56;
+    color:white;
+}
+
+.content{
+    width:880px;
+    height:320px;
+    background-color:#ffffff;
+    box-shadow:3px 3px 3px #E3E3E4;
+    margin:auto;
+}
+.content{
+    margin-top:40px;
+}
+.content .main{
+    width:520px;
+    height:320px;
+    margin:auto;
+    padding-top:50px;
+}
+.content .main ul{
+    width:520px;
+    height:150px;
+}
+.content .main ul li{
+    display:block;
+    width:520px;
+    height:30px;
+    font-family:"Microsoft YaHei";
+    line-height:30px;
+    color:#424146;
+    text-align:center;
+    letter-spacing:2px;
+    padding:20px 0 20px;
+}
+.content .main ul li select{
+    border:1px solid #C9C9C9;
+    display:block;
+    width:323px;
+    height:35px;
+    font-family:"Microsoft YaHei";
+    font-size:16px;
+    color:#424146;
+    text-indent:27px;
+    background-color:#F4F4F4;
+}
+.content .main span{
+    display:block;
+    width:140px;
+    height:30px;
+    font-family:"Microsoft YaHei";
+    font-size:16px;
+    color:#424146;
+    text-align:right;
+    letter-spacing:2px;
+    float:left;
+    margin-right:50px;
+}
+.content .main li input{
+    border:1px solid #C9C9C9;
+    display:block;
+    width:320px;
+    height:30px;
+    font-family:"Microsoft YaHei";
+    font-size:16px;
+    color:#424146;
+    text-indent:30px;
+    outline:medium;
+    background-color:#F4F4F4;
+}
+.content .main .button{
+    border:none;
+    display:block;
+    width:120px;
+    height:30px;
+    font-family:"Microsoft YaHei";
+    font-size:16px;
+    color:#ffffff;
+    outline:medium;
+    cursor:pointer;
+    background-color:#FD5F56;
+    margin:20px 0 0 190px;
+}

@@ -1,0 +1,13 @@
+/* CSS Document */
+.a{
+   width:700px;
+   height:470px;
+   margin:auto;
+   filter:Glow(color=#ff0000,strength=8);
+   filter:gray;
+}
+.b{
+  font-size:18px;
+  margin:auto;
+  dropshadow(color=#ff0000,offx=2 offy=1,positive=1)
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>div改变样式</title>
+    <style>
+        #div1{
+            width:100px;
+            height:100px;
+            background:blue;
+        }
+    </style>
+    <script>
+        function setStyle(name,value)
+        {
+            var oTxt=document.getElementById('div1');
+            //第一种操作属性的方法
+            //oTxt.value='2222222222';
+
+            //第二种操作属性的方法
+            oTxt.style[name]=value;
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="变宽" onclick="setStyle('width','200px')"/>
+<input type="button" value="变高" onclick="setStyle('height','200px')"/>
+<input type="button" value="变色" onclick="setStyle('background','red')"/>
+<div id="div1">
+
+</div>
+</body>
+</html>

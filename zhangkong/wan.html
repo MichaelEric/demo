@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/wan.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="top_menu">
+    <ul>
+        <li><a href="network_2.4G.html" class="wifi"  >WIFI 2.4G</a></li>
+        <li><a href="network_5G.html" class="wifi_5"  >WIFI 5G</a></li>
+        <li><a href="wan.html" class="wan"  >WAN</a></li>
+        <li ><a href="lan.html" class="lan" >LAN</a></li>
+        <li><a href="lan1.html" class="mac"  >MAC地址过滤</a></li>
+        <li><a href="network_zhongduan.html" class="zhongduan"  >WIFI终端管理</a></li>
+        <li><a href="network_zhongji.html" class="zhongji"  >WIFI中继</a></li>
+    </ul>
+</div>
+
+<div class="content">
+<div class="main">
+    <ul>
+        <li>
+            <span>WAN口选择:</span>
+            <select>
+                <option>DHCP</option>
+                <option>HDML</option>
+            </select>
+        </li>
+        <li>
+            <span>IP地址:</span>
+            <input type="text" value="100" name="text"/>
+        </li>
+        <li>
+            <span>子网奄码:</span>
+            <input type="text" value="250" name="text"/>
+        </li>
+        <li>
+            <span>网关:</span>
+            <input type="text" value="750" name="text"/>
+        </li>
+        <li>
+            <span>数据包MTU:</span>
+            <input type="text" value="192.168.1.1" name="text"/>
+        </li>
+        <!--<li class="different">-->
+            <p>默认1500，如非必要请勿修改（单位“字节”）</p>
+        <!--</li>-->
+        <li>
+            <span>主DNS:</span>
+            <input type="text" value="192.168.1.1" name="text"/>
+        </li>
+        <li>
+            <span>备用DNS:</span>
+            <input type="text" value="192.168.1.1" name="text"/>
+        </li>
+
+    </ul>
+    <input type="button" value="保存" name="save" class="button"/>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+/* CSS Document */
+
+/*div+css6种选择器*/
+
+/*通配选择器*/
+/*
+*{
+  border:1px solid #00FF00
+}
+
+/*标记选择器*/
+/*
+div{
+  border:1px solid #FF0000
+}
+span{
+  border:1px solid #000000
+}
+a {
+  border:1px solid #0000FF
+}*/
+
+/*calss选择器*/
+/*
+.one{
+  border:1px solid #0000FF
+}*/
+
+/*ID选择器*/
+/*
+#id1{
+  border:1px solid #FF0000
+}
+
+#dv{
+  border:1px solid #330099
+}*/
+
+/*群组选择器*/
+
+#dv,.one,a{
+  border:1px solid #FF0000
+}
+
+/*派生选择器*/
+
+#us{
+  border:1px solid #336699
+}
+
+#us li{
+  border:1px solid #990000
+}
+
+

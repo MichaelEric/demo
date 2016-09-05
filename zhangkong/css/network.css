@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:url(../img_gateway/dabeijing.png) no-repeat;
+}
+#main{
+
+}
+.top_menu{
+    height:55px;
+    width:100%;
+    border-bottom: 1px solid #D7D7D7;
+}
+.top_menu ul{
+    font-family: "Microsoft YaHei";
+    font-size:18px;
+    height:55px;
+    width:1085px;
+    list-style-type: none;
+
+    margin:auto;
+}
+.top_menu ul li a{
+    border-radius:5px;
+    height:40px;
+    width:153px;
+    color:#2f3238;
+    line-height:40px;
+    text-align:center;
+    text-decoration:none;
+    float:left;
+    margin-top:10px;
+}
+.top_menu ul li a:hover{
+    background-color: #FD5F56;
+    color:white;
+}

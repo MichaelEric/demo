@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标放在文字上会弹出提示框效果</title>
+    <style>
+        #content{
+            height:20px;
+        }
+        #div1 {
+            width:200px;
+            height:70px;
+            background-color:#fff000;
+            border:1px solid #ff0000;
+            border-radius:5px;
+            display:none;
+            float:left;
+        }
+        .text{
+            height:20px;
+        }
+        .text input{
+            border:1px solid #ff0000;
+            float:left;
+        }
+        .text span{
+            width:120px;
+            float:left;
+            display:inline;
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+<div class="text">
+    <input type="checkbox" />
+    <span onmouseover="document.getElementById('div1').style.display='block'" onmouseout="document.getElementById('div1').style.display='none'">
+        两天内自动登录
+    </span>
+</div>
+    <div id="div1">
+        为了您的信息安全，请不要在网吧或者公共区域登陆您的账号
+    </div>
+</div>
+</body>
+</html>
